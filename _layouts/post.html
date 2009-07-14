@@ -1,10 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
+<head>
   <link rel="StyleSheet" href="css/default.css" type="text/css" />
   <title>{{ page.title }}</title>
-<head>
 </head>
-
 <body>
 <div id="page">
   <div id="header">
@@ -22,7 +21,13 @@
     </div>
   </div>
   <div id="main">
-    {{ content }}
+    <div class="post">
+      <h1 class="publication-date">{{ post.date }}</h1>
+      <h1>{{ post.title }}</h1>
+      <div>
+	{{ post.content }}
+      </div>
+    </div>
   </div>
   <div id="footer">
     <div id="footer-links">
