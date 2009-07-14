@@ -1,0 +1,117 @@
+body 
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12pt;
+    color: #666666;
+}
+
+#header
+{
+    float: right;
+}
+
+#header-links
+{
+    border-bottom: 1px solid #669933;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+#header-links a 
+{
+    color: #666666;
+    text-decoration: none;
+    text-weight: bold;
+    margin-left: 2em;
+}
+
+#header-site
+{
+    margin-top: 5px;
+    text-align: right;
+}
+
+#header-site a 
+{
+    color: #669933;
+    font-weight: bold;
+    font-size: 12pt;
+    text-decoration: none;
+}
+
+#header-site .site-name
+{
+    color: #000000;
+    font-weight: normal;
+}
+
+#page 
+{
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.8em;
+}
+
+#main
+{
+    margin-top: 60px;
+}
+
+.post
+{
+    text-align: justify;
+}
+
+.post .publication-date
+{
+    color: #669933;
+    font-weight: normal;
+    font-size: 10pt;
+    margin-bottom: 1px;
+    padding-bottom: 0px;
+}
+
+.post h1
+{
+    color: #000000;
+    font-size: 14pt;
+    margin-top: 5px;
+}
+
+#footer
+{
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 4px solid #669933;
+    text-align: right;
+}
+
+#footer img 
+{
+    border-style: none;
+    vertical-align: middle;
+}
+
+#footer-site-owner
+{
+    font-size: 10pt;
+    font-weight: normal;
+    color: #999999;
+    margin-right: 10px;
+}
+
+#footer-site
+{
+    color: #669933;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+#footer-site .site-name
+{
+    color: #000000;
+    font-weight: normal;
+}
