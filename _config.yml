@@ -1,1 +1,3 @@
-estination: ./_site
+destination: ./_site
+markdown: rdiscount
+

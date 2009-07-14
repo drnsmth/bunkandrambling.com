@@ -1,0 +1,13 @@
+---
+title: bunk and rambling - on the internet
+layout: default
+---
+
+{% assign most_recent = site.posts.first %}
+<div class="post">
+  <h1 class="publication-date">{{ most_recent.date | date: "%A, %B %d, %Y" }}</h1>
+  <h1>{{ most_recent.title }}</h1>
+  <div>
+    {{ most_recent.content }}
+  </div>
+</div>
