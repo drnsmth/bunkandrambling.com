@@ -2,5 +2,7 @@
 title: Web log is back online
 layout: post
 ---
+After a number of months of being offline, and with intermittent posts for a good number of months, Bunk & Rambling is finally back online. It is unlikely that I'll be bringing back old posts as I lost them a few months back.  This site is generated using [Jekyll] [1].
 
-The site is back online, it is unlikely that I'll be bringing back old posts as I lost them a few months back.  I am trying a new approach whereby we are statically generating all pages using Jekyll and storing all posts in a git repository.  We'll see how this experiment works out.
+[1]: http://github.com/mojombo/jekyll/tree/master "Mojombo Jekyll"
+
