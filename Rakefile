@@ -11,10 +11,9 @@ end
 
 task :generate do
   sh "jekyll"
-  sh "mv _site/atom.html _site/atom.xml"
 end
 
-task :publish => [:clean, :refresh, :generate] do 
-  cp "_site/* /var/www/" 
-  sh "chown -R wwwdata:wwwdata /var/www/*"
+task :publish => [:clean, :generate] do 
+  sh "cp -r _site/* /var/www/" 
+  sh "chown -R www-data:www-data /var/www/*"
 end
