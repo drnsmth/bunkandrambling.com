@@ -7,6 +7,18 @@ body
     color: #666666;
 }
 
+a 
+{
+    color: #669933;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #669933;
+    text-decoration: underline;
+}
+
 #header
 {
     float: right;
