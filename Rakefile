@@ -1,10 +1,6 @@
 
 task :default => [:generate]
 
-task :refresh do 
-  sh "git pull git@src.bunkandrambling.com:bunkandrambling.git"
-end
-
 task :clean do
   sh "rm -rf _site"
 end
