@@ -52,14 +52,14 @@ Embracing IS as a part of the development process is not without its
 problems.  One fear is that developers loose control of what tools
 they install to enhance their development activities. This fear becomes
 a reality all too often as the benefits of allowing developers to tune
-their development environent are not clearly communicated to the IS
-deceision makers. IS then locks down develoer machines just as they
+their development environment are not clearly communicated to the IS
+decision makers. IS then locks down developer machines just as they
 would any other desktop user. The result is that the developer's
 (production) environment is no longer supporting the needs of its
 target stakeholder. For this reason, the IS team (or a part of it)
 needs to become part of the development team rather than being an
 isolated participant in the process. Their role is then directed
 toward the productivity of the delivery team by providing a stable and
-adaptable environment targetted at their end user's specific needs.
+adaptable environment targeted at their end user's specific needs.
 
 
